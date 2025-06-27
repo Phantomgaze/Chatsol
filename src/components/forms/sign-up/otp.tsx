@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useSignUpForm } from '../../../hooks/sign-up/use-sign-up'
 import { Label } from '@/components/ui/label'
 import { Input } from '@/components/ui/input'
-import { Button } from '@/components/landingpage/button'
+import { Button } from '@/components/ui/button'
 
 interface Props {
   onNext: () => void

@@ -8,7 +8,7 @@ import PremiumBadge from '@/icons/premium-badge'
 import EditChatbotIcon from './edit-chatbot-icon'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
-import { Button } from '@/components/landingpage/button'
+import { Button } from '@/components/ui/button'
 import { Loader } from '@/components/loader'
 
 const WelcomeMessage = dynamic(

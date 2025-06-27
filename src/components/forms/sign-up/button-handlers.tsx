@@ -1,5 +1,5 @@
 'use client'
-import { Button } from '@/components/landingpage/button'
+import { Button } from '@/components/ui/button'
 import { useAuthContextHook } from '@/context/use-auth-context'
 import { useSignUpForm } from '@/hooks/sign-up/use-sign-up'
 import Link from 'next/link'

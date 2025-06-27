@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/card'
 import Section from '@/components/section-label'
 import FormGenerator from '../form-generator'
-import { Button } from '@/components/landingpage/button'
+import { Button } from '@/components/ui/button'
 import { Loader } from '@/components/loader'
 import { Accordion } from '@/components/accordion'
 

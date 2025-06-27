@@ -1,5 +1,5 @@
 import { Loader } from '@/components/loader'
-import { Button } from '@/components/landingpage/button'
+import { Button } from ''
 import { Calendar } from '@/components/ui/calendar'
 import { Card, CardDescription } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'

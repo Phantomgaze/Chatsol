@@ -9,7 +9,7 @@ import {
 import { useFilterQuestions, useHelpDesk } from '@/hooks/settings/use-settings'
 import React from 'react'
 import FormGenerator from '../form-generator'
-import { Button } from '@/components/landingpage/button'
+import { Button } from '@/components/ui/button'
 import { Loader } from '@/components/loader'
 
 type Props = {
