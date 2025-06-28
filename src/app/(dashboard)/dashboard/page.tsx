@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic' // Force dynamic route handling
 import { getUserAppointments } from '@/actions/appointment'
 import {
   getUserBalance,
