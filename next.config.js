@@ -14,9 +14,6 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    serverActions: true,
-  },
   transpilePackages: ['framer-motion'],
 };
 

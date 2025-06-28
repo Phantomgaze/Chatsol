@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Button } from '../landingpage/button'
+import { Button } from '@/components/ui/button'
 import { Loader } from '../loader'
 import { useStripe } from '@/hooks/billing/use-billing'
 
