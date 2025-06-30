@@ -51,7 +51,10 @@ export default function Footer() {
     <footer className="w-full border-t border-border bg-background py-8 px-4 dark:bg-[#18181B]">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-8">
         <div className="flex flex-col items-start gap-4 md:w-1/3">
-          <Image src="/images/chatsol logo.png" alt="chatsol Logo" width={120} height={40} />
+          <div className="flex items-center gap-2">
+            <Image src="/images/chatsol logo .png" alt="chatsol Logo" width={40} height={40} className="object-contain" />
+            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Chatsol AI</span>
+          </div>
           <p className="text-muted-foreground text-sm max-w-xs">Empowering your workflow with intelligent automation and modern UI.</p>
           <div className="flex gap-4 mt-2">
             {socialLinks.map((link) => (
