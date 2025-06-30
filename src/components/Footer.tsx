@@ -51,7 +51,7 @@ export default function Footer() {
     <footer className="w-full border-t border-border bg-background py-8 px-4 dark:bg-[#18181B]">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-start gap-8">
         <div className="flex flex-col items-start gap-4 md:w-1/3">
-          <Image src="/images/corinna-ai-logo.png" alt="Corinna AI Logo" width={120} height={40} />
+          <Image src="/images/chatsol-logo.png" alt="Corinna AI Logo" width={120} height={40} />
           <p className="text-muted-foreground text-sm max-w-xs">Empowering your workflow with intelligent automation and modern UI.</p>
           <div className="flex gap-4 mt-2">
             {socialLinks.map((link) => (
@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-border mt-8 pt-4 text-center text-xs text-muted-foreground">
-        &copy; {new Date().getFullYear()} Corinna AI. All rights reserved.
+        &copy; {new Date().getFullYear()} ChatSol. All rights reserved.
       </div>
     </footer>
   );
